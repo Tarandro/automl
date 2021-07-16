@@ -192,7 +192,7 @@ efficientnetv2_params = {
     'efficientnetv2-s':  # 83.9% @ 22M
         (v2_s_block, 1.0, 1.0, 300, 384, 0.2, 10, 0, 'randaug'),
     'efficientnetv2-m':  # 85.2% @ 54M
-        (v2_m_block, 1.0, 1.0, 384, 480, 0.3, 15, 0.2, 'randaug'),
+        (v2_m_block, 1.0, 1.0, 384, 480, 0.5, 15, 0.2, 'randaug'),
     'efficientnetv2-l':  # 85.7% @ 120M
         (v2_l_block, 1.0, 1.0, 384, 480, 0.4, 20, 0.5, 'randaug'),
 
